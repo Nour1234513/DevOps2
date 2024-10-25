@@ -1,0 +1,58 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and virtual environment folders
+env/
+venv/
+.venv/
+ENV/
+*.env
+*.env.*
+
+# Pytest cache
+.cache
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# MacOS and other system files
+.DS_Store
+Thumbs.db
+
+# Logs and database files
+*.log
+*.db
+bookstore.db
+
+# Ignore compiled SQL files
+*.sqlite3
+
+# Docker files
+*.pid
+docker-compose.override.yml
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ignore Docker image files and container volumes
+docker-compose.yml
+.dockerignore
+.env.docker
+
+# Ignore pip requirements file lock, if you use one
+requirements.txt.lock
+
+# Miscellaneous
+*.bak
+*.swp
+
+# Ignore your FastAPI Swagger UI
+*.html

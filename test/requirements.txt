@@ -1,0 +1,4 @@
+pytest
+httpx
+attrs==24.2.0
+python-dateutil
